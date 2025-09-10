@@ -28,3 +28,5 @@ jobs:
 
     - name: Run linter (make lint)
       run: make lint
+    - name: Run hexlet-action
+      uses: hexlet-components/hello-from-hexlet-action@release
